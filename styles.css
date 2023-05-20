@@ -41,4 +41,26 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
+  }
+
+  .yo {
+    border: 1px solid red;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .photo-grid-item {
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
   }
